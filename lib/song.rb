@@ -4,15 +4,20 @@ class Song
 @@all = []
 
   def initialize(name)
-    @@all
+    @@all = []
     @artist = song.artist
     @title
     @name = song.name
   end
 
-  def name
-
+  def artist
+if artist = nil
+  return nil
+else
+  return artist_name
   end
+
+
 end
 
 
