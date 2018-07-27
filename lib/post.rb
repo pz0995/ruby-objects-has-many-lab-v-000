@@ -6,7 +6,7 @@ class Post
   def initialize(title)
     @title
     @author = author_name
-    @@all = post.new
+    @@all = post.all
   end
 
 def post_count
