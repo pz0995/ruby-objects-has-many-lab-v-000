@@ -4,8 +4,9 @@ attr_accessor :name,
 
 def initialize
   @name
-  
+
 end
+
 
 #new
    is initialized with a name (FAILED - 1)
