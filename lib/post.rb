@@ -21,9 +21,9 @@ def self.all?
 end
   #new
 end
-# 
-# 
-# 
+#
+#
+#
 # pushes new instances into a class variable called @@all upon initialization (FAILED - 1
 # 3)
 # @@all
