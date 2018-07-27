@@ -5,8 +5,7 @@ class Post
 
   def initialize(title)
     @title
-    @author
-    @author_name
+    @author = author_name
   end
 
 def post_count
@@ -21,6 +20,20 @@ def self.all?
 end
   #new
 end
+
+pushes new instances into a class variable called @@all upon initialization (FAILED - 1
+3)
+@@all
+ is a class variable set to an array
+.all
+ is a class method that returns an array of all post instances that have been created (F
+AILED - 14)
+#title
+ has a title (FAILED - 15)
+#author
+ belongs to an author (FAILED - 16)
+#author_name
+ knows the name of its author (FAILED - 17)
 #
 #
 #     is a class method that returns an array of all post instances that have been created (F
