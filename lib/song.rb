@@ -17,11 +17,11 @@ else
   return artist_name
   end
 
-
+end
 end
 
-    # 
-    # 
+    #
+    #
     #     is a class method that returns an array of all song instances that have been created (F
     # AILED - 21)
     #   #name
