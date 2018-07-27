@@ -1,17 +1,13 @@
 class Artist
 
-attr_accessor :name,
-
+attr_accessor :name, :songs
+  @name = name
+  total_songs = songs.sum
 def initialize
   @name
-
 end
 
 
-#new
-   is initialized with a name (FAILED - 1)
- #name
-   has an attr_accessor for name (FAILED - 2)
    #songs
      has many songs (FAILED - 3)
    #add_song
