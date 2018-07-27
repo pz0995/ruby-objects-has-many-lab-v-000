@@ -1,6 +1,6 @@
 class Artist
 
-attr_accessor :name, :songs
+attr_accessor :name, :songs,
   @name = name
   total_songs = songs.sum
 def initialize
