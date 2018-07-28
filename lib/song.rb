@@ -9,10 +9,10 @@ class Song
   end
 
   def artist
-if artist = nil
-  return nil
-else
-  return artist_name
+  if artist = nil
+    return nil
+  else
+    return artist_name
   end
 
 end
